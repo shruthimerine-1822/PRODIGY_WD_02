@@ -1,0 +1,21 @@
+name: Blueprint Test Deployment
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy Test Environment
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Test deployment completed"name: Blueprint Test Deployment
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy Test Environment
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Test deployment completed"

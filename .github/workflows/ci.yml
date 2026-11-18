@@ -1,0 +1,23 @@
+name: Blueprint CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Build completed"
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Tests completed"
+
+  security:
+    name: Security Scan
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Security scan completed"
